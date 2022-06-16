@@ -1,0 +1,23 @@
+
+div.container {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+div.squares {
+  width: 50%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+button.square {
+  background-color: white;
+  border: solid;
+  text-align: center;
+  height: 10vh;
+  width: 30%;
+  line-height: 10vh;
+}
